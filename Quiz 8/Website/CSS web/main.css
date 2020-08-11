@@ -1,0 +1,92 @@
+body{
+	background-color:  #ccc;
+	color: #222;
+	font-family: arial;
+}
+
+.cont{
+	max-width: 1000px;
+	min-height: 200px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.cont2 h2{
+	font-size:5bw;
+	margin:0;
+	padding:0;
+}
+
+.my-panel{
+ width: 30%;
+ float: left;
+
+}
+.myinfor{
+
+}
+
+.one{
+	background-color: green;
+	min-height: 100px;
+	padding: 1.66%
+}
+
+.two{
+	background-color: blue;
+	min-height: 20px;
+	padding:1.66% 
+}
+
+.three{
+	background-color: red;
+	min-height: 100px;
+	padding: 1.66%
+}
+
+	.four{
+	background-color: purple;
+	min-height: 200px;
+	padding: 
+}
+.five{
+	background-color: grey;
+	min-height: 20px
+	padding:;
+	}
+
+.six{
+	background-color: pink;
+	min-height: 20px;
+	padding:2.5%;
+}
+
+.seven{
+	background-color: red;
+	min-height: 100px;
+	padding: 1.66px;
+	overflow: auto;
+}
+
+.eight{
+	background-color: green;
+	min-height: 20px;
+	padding: 2.5px;
+}
+
+.five img{
+	width: 100%
+}
+@media screen and (max-width: 800px){
+	.my-panel{
+		width: 98%;
+		padding: 1px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.myinfo{
+		width: 98%;
+		padding: 1%; 
+	}
+
+}
